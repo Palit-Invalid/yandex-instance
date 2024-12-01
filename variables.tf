@@ -1,19 +1,23 @@
 variable "zone" {
-  type = string
+  description = "VM will be deployed to this region. Details: https://yandex.cloud/en-ru/docs/overview/concepts/region"
+  type        = string
 }
 
 variable "name" {
-  type = string
+  description = "Virtual machine name"
+  type        = string
 }
 
 variable "cpu" {
-  type    = number
-  default = 2
+  description = "Number of CPU"
+  type        = number
+  default     = 2
 }
 
 variable "memory" {
-  type    = number
-  default = 2
+  description = "Number of RAM (GB)"
+  type        = number
+  default     = 2
 }
 
 variable "core_fraction" {
