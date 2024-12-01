@@ -28,14 +28,14 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_core_fraction"></a> [core\_fraction](#input\_core\_fraction) | n/a | `number` | `5` | no |
-| <a name="input_cpu"></a> [cpu](#input\_cpu) | n/a | `number` | `2` | no |
+| <a name="input_cpu"></a> [cpu](#input\_cpu) | Number of CPU | `number` | `2` | no |
 | <a name="input_enable_external_ip"></a> [enable\_external\_ip](#input\_enable\_external\_ip) | n/a | `bool` | `false` | no |
 | <a name="input_image"></a> [image](#input\_image) | n/a | `string` | n/a | yes |
-| <a name="input_memory"></a> [memory](#input\_memory) | n/a | `number` | `2` | no |
-| <a name="input_name"></a> [name](#input\_name) | n/a | `string` | n/a | yes |
+| <a name="input_memory"></a> [memory](#input\_memory) | Number of RAM (GB) | `number` | `2` | no |
+| <a name="input_name"></a> [name](#input\_name) | Virtual machine name | `string` | n/a | yes |
 | <a name="input_ssh_keys"></a> [ssh\_keys](#input\_ssh\_keys) | n/a | `string` | n/a | yes |
 | <a name="input_vpc_subnet_id"></a> [vpc\_subnet\_id](#input\_vpc\_subnet\_id) | n/a | `string` | n/a | yes |
-| <a name="input_zone"></a> [zone](#input\_zone) | n/a | `string` | n/a | yes |
+| <a name="input_zone"></a> [zone](#input\_zone) | VM will be deployed to this region. Details: https://yandex.cloud/en-ru/docs/overview/concepts/region | `string` | n/a | yes |
 
 ## Outputs
 
