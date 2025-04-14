@@ -20,6 +20,12 @@ variable "memory" {
   default     = 2
 }
 
+variable "disk_size" {
+  description = "Block size of the disk, specified in bytes"
+  type        = number
+  default     = 10737418240
+}
+
 variable "core_fraction" {
   type    = number
   default = 5
