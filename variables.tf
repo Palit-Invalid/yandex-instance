@@ -21,7 +21,7 @@ variable "memory" {
 }
 
 variable "disk_size" {
-  description = "Block size of the disk, specified in bytes"
+  description = "Size of the disk in GB."
   type        = number
   default     = 10737418240
 }
