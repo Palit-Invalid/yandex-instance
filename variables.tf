@@ -23,7 +23,7 @@ variable "memory" {
 variable "disk_size" {
   description = "Size of the disk in GB."
   type        = number
-  default     = 10737418240
+  default     = 10
 }
 
 variable "core_fraction" {
